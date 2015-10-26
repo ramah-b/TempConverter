@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="sales_tax.css" />
+ <script type="text/javascript" src="temp_convert.js"></script> 
+</head>
+<body>
+	<div id="content">
+		<h1>Temperature Converter</h1>
+		<p>Enter the temperature you would like to convert.</p>
+		<div id="tempConvert">
+			<label for="C">C Degrees:</label> <input type="text" id="C" /><br />
+
+			<label for="F">F Degrees:</label> <input type="text" id="F" /><br />
+
+		
+			<label>&nbsp;</label> 
+			<input type="button" id="convert" value="Convert to C" onclick="convert_to_C_click()" /><br />
+			<label>&nbsp;</label> 
+			<input type="button" id="convert" value="Convert to F" onclick="convert_to_F_click()" /><br />
+			<br /><br />
+			<img src="http://www.psdgraphics.com/file/weather-icon.jpg" height="150"
+				width="150" id= "tempPic"/>
+		</div>
+	</div>
+</body>
+</html>
